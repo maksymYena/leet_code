@@ -22,9 +22,3 @@ class Solution:
             prev_value = cur_value
             print(f"updating prev_value to cur_value and the result is {prev_value}")
         return sum
-
-
-sol = Solution()
-print(sol.romanToInt("MCMXCIV"))  # 1994
-print(sol.romanToInt("III"))  # 3
-print(sol.romanToInt("LVIII"))  # 58
